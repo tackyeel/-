@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "id": "github.tackyeel.initiative-talk-cn-qq-whitelist",
+  "name": "主动发言与回复（中文QQ白名单版）",
+  "version": "1.1.0",
+  "description": "定时主动找指定 QQ 私聊，支持中文配置、QQ 号白名单、会话 hash 白名单和活跃时段。",
+  "author": {
+    "name": "tackyeel",
+    "url": "https://github.com/tackyeel"
+  },
+  "license": "MIT",
+  "urls": {
+    "repository": "https://github.com/tackyeel/-",
+    "homepage": "https://github.com/tackyeel/-",
+    "documentation": "https://github.com/tackyeel/-/blob/main/README.md",
+    "issues": "https://github.com/tackyeel/-/issues"
+  },
+  "host_application": {
+    "min_version": "1.0.0",
+    "max_version": "1.0.0"
+  },
+  "sdk": {
+    "min_version": "1.0.0",
+    "max_version": "2.99.99"
+  },
+  "capabilities": [
+    "send.text",
+    "llm.generate",
+    "config.get",
+    "chat.get_stream_by_user_id"
+  ],
+  "i18n": {
+    "default_locale": "zh-CN",
+    "supported_locales": [
+      "zh-CN"
+    ]
+  },
+  "dependencies": []
+}
